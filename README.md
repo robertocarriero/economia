@@ -27,12 +27,12 @@
 - ##  Estructura del Proyecto
 
 economiaproject/
- ├── economia/                # Configuración principal del proyecto Django
- │   ├── settings.py          # Configuración de Django (bases de datos, middleware, etc.)
- │   ├── urls.py              # Enrutamiento principal del proyecto
- │   ├── wsgi.py              # Configuración para servidores WSGI
- │   ├── asgi.py              # Configuración para servidores ASGI
- │   └── __init__.py          # Indica que es un paquete Python
+ ├── economia/                
+ │   ├── settings.py          
+ │   ├── urls.py              
+ │   ├── wsgi.py              
+ │   ├── asgi.py              
+ │   └── __init__.py
  │
  ├── app_economia/            # Aplicación principal del proyecto
  │   ├── migrations/          # Migraciones de la base de datos
