@@ -24,10 +24,48 @@
 - **JavaScript**: Para funcionalidades interactivas en el frontend.
 - **CSS & Bootstrap 4**: Estilizado y diseño responsivo de la aplicación.
 
-## Instalación y Uso
+- ##  Estructura del Proyecto
 
-1. **Clonar el repositorio**:
+economiaproject/
+ ├── economia/                # Configuración principal del proyecto Django
+ │   ├── settings.py          # Configuración de Django (bases de datos, middleware, etc.)
+ │   ├── urls.py              # Enrutamiento principal del proyecto
+ │   ├── wsgi.py              # Configuración para servidores WSGI
+ │   ├── asgi.py              # Configuración para servidores ASGI
+ │   └── __init__.py          # Indica que es un paquete Python
+ │
+ ├── app_economia/            # Aplicación principal del proyecto
+ │   ├── migrations/          # Migraciones de la base de datos
+ │   ├── static/              # Archivos estáticos (CSS, JavaScript, imágenes)
+ │   │   ├── css/             # Estilos de la aplicación
+ │   │   ├── js/              # Archivos JavaScript
+ │   │   └── images/          # Imágenes y capturas de pantalla
+ │   ├── templates/           # Plantillas HTML para la renderización de vistas
+ │   │   └── base.html        # Plantilla base reutilizable
+ │   ├── views.py             # Lógica de las vistas de Django
+ │   ├── models.py            # Definición de los modelos de base de datos
+ │   ├── urls.py              # Enrutamiento específico de la aplicación
+ │   ├── forms.py             # Formularios Django (si aplica)
+ │   ├── admin.py             # Configuración del panel de administración de Django
+ │   ├── tests.py             # Pruebas unitarias
+ │   └── __init__.py          # Indica que es un paquete Python
+ │
+ ├── db.sqlite3               # Base de datos SQLite (si aplica)
+ ├── manage.py                # Comando para gestionar el proyecto Django
+ ├── requirements.txt         # Dependencias del proyecto
+ ├── README.md                # Documentación del proyecto
+ ├── .gitignore               # Archivos y directorios a ignorar en Git
+ └── .env                     # Variables de entorno (API Keys, credenciales, etc.)
+```
 
-   ```bash
-   git clone https://github.com/robertocarriero/economia.git
-   cd economia
+### ** Explicación**
+- 📂 `economia/` → Carpeta principal del proyecto Django.
+- 📂 `app_economia/` → Aplicación específica dentro del proyecto.
+- 📂 `static/` → Contiene archivos estáticos (CSS, JS, imágenes).
+- 📂 `templates/` → Contiene las plantillas HTML utiliza
+
+
+
+
+
+
