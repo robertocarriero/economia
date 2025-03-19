@@ -34,28 +34,27 @@ economiaproject/
  │   ├── asgi.py              
  │   └── __init__.py
  │
- ├── app_economia/            # Aplicación principal del proyecto
- │   ├── migrations/          # Migraciones de la base de datos
- │   ├── static/              # Archivos estáticos (CSS, JavaScript, imágenes)
- │   │   ├── css/             # Estilos de la aplicación
- │   │   ├── js/              # Archivos JavaScript
- │   │   └── images/          # Imágenes y capturas de pantalla
- │   ├── templates/           # Plantillas HTML para la renderización de vistas
- │   │   └── base.html        # Plantilla base reutilizable
- │   ├── views.py             # Lógica de las vistas de Django
- │   ├── models.py            # Definición de los modelos de base de datos
- │   ├── urls.py              # Enrutamiento específico de la aplicación
- │   ├── forms.py             # Formularios Django (si aplica)
- │   ├── admin.py             # Configuración del panel de administración de Django
- │   ├── tests.py             # Pruebas unitarias
- │   └── __init__.py          # Indica que es un paquete Python
+ ├── app_economia/            
+ │   ├── migrations/          
+ │   ├── static/              
+ │   │   ├── css/             
+ │   │   ├── js/              
+ │   │   └── images/         
+ │   ├── templates/          
+ │   ├── views.py            
+ │   ├── models.py            
+ │   ├── urls.py             
+ │   ├── forms.py            
+ │   ├── admin.py            
+ │   ├── tests.py             
+ │   └── __init__.py         
  │
- ├── db.sqlite3               # Base de datos SQLite (si aplica)
- ├── manage.py                # Comando para gestionar el proyecto Django
- ├── requirements.txt         # Dependencias del proyecto
- ├── README.md                # Documentación del proyecto
- ├── .gitignore               # Archivos y directorios a ignorar en Git
- └── .env                     # Variables de entorno (API Keys, credenciales, etc.)
+ ├── db.sqlite3               
+ ├── manage.py                
+ ├── requirements.txt        
+ ├── README.md               
+ ├── .gitignore               
+ └── .env                     
 ```
 
 ### ** Explicación**
